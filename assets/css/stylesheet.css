@@ -21,7 +21,8 @@ footer p {
     position: absolute;
     bottom: 1px;
     text-align: center;
-    width: 100%;
+    width: 80%;
+    left: 10%;
 }
 html, body {
     max-width: 100%;
