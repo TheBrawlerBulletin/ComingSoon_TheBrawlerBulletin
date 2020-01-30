@@ -1,0 +1,29 @@
+main {
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 'Lilita One', cursive;
+    position: absolute;
+    top: -50px;
+    left: 0em;
+    letter-spacing: 3px;
+}
+main p {
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    width: 20em;
+}
+span {
+    color: grey;
+}
+footer p {
+    font-size: 50%;
+    position: absolute;
+    bottom: 1px;
+    text-align: center;
+    width: 100%;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
