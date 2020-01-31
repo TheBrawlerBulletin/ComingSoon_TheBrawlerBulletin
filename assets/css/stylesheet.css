@@ -2,29 +2,50 @@ main {
     text-align: center;
     font-family: sans-serif;
     font-family: 'Lilita One', cursive;
-    position: absolute;
-    top: -50px;
-    left: 0em;
+    margin: auto;
     letter-spacing: 3px;
+    margin-top: 4%;
 }
 main p {
     font-family: 'Open Sans', sans-serif;
 }
 img {
-    width: 20em;
+    width: 30em;
+    margin: 2em;
 }
 span {
     color: grey;
 }
 footer p {
     font-size: 50%;
-    position: absolute;
-    bottom: 1px;
     text-align: center;
-    width: 80%;
-    left: 10%;
+}
+footer {
+    margin: auto;
 }
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+@media screen and (max-width: 900px) {
+    img {
+        width: 20em;
+    }
+    h1 {
+        font-size: 140%;
+    }
+    p {
+        font-size: 80%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    img {
+        width: 15em;
+    }
+    h1 {
+        font-size: 110%;
+    }
+    p {
+        font-size: 70%;
+    }
+  }
